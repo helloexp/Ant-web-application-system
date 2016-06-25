@@ -1,0 +1,219 @@
+
+/*下面是具体xss介绍页面_vul的css*/
+#vul_info{
+	width:600px;
+	height:600px;
+	/*background-color:red;*/
+	overflow:hidden;
+	}
+
+#vul_info .vul_title{
+	height:30px;
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+	/*background-color:pink;*/
+	text-align:center;
+	}
+#vul_info .vul_detail{
+	color:#fff;
+	text-indent:25px;
+	line-height:25px;
+	margin-top:10px;
+	margin-left:15px;
+	}
+#vul_info .vul_detail_1{
+	color:#fff;
+	line-height:25px;
+	margin-top:10px;
+	margin-left:15px;
+	}
+
+/*下面是xss_reflected(get and post) main的css*/
+#xssr_main{
+	width:650px;
+	height:800px;
+	float:left;
+	/*background-color:red;*/
+	}
+#xssr_main .xssr_title{
+	text-indent:100px;
+	color:#fff;
+	margin-top:30px;
+	}
+#xssr_main .xssr_in{
+	width:300px;
+	height:35px;
+	margin-top:30px;
+	margin-left:130px;
+	}
+#xssr_main .xssr_submit{
+	width:60px;
+	height:35px;
+	}
+#xssr_main .notice{
+	color:#fff;
+	margin-top:15px;
+	margin-left:120px;
+	
+}
+#xssr_main img{
+	width:404px;
+	height:255px;
+	margin-top:5px;
+	margin-left:120px;
+	
+}
+/*下面是xss post的*/
+#xssr_main_post{
+	width:500px;
+	height:500px;
+	float:left;
+	margin-left:300px;
+	margin-top:50px;
+	color:#fff;
+	}
+#xssr_main_post .xssr_title{
+	text-indent:100px;
+	color:#fff;
+	margin-top:30px;
+	}
+#xssr_main_post .xssr_in{
+	width:300px;
+	height:35px;
+	margin-top:30px;
+	margin-left:130px;
+	}
+#xssr_main_post .xssr_submit{
+	width:60px;
+	height:35px;
+	}
+#xssr_main_post .notice{
+	color:#fff;
+	margin-top:15px;
+	margin-left:120px;
+	
+}
+#xssr_main_post img{
+	width:404px;
+	height:255px;
+	margin-top:5px;
+	margin-left:120px;
+}
+/*下面是stored XSS main的css*/
+	
+#xsss_main{
+	float:left;
+	}
+#xsss_main .xsss_title{
+	color:#fff;
+	margin-top:30px;
+	margin-left:130px;
+	}
+#xsss_main .xsss_in{
+	width:350px;
+	height:100px;
+	resize:none;
+	margin-top:5px;
+	margin-left:130px
+	}
+#xsss_main .xsss_submit{
+	width:55px;
+	height:30px;
+	margin-left:130px;
+	}
+#show_message{
+	width:650px;
+}
+#show_message .line{
+	border-top:1px dashed #F7F7F7;
+	color:#fff;
+	}
+#show_message .con{
+	width:600px;
+	color:#fff;
+	font-size:14px;
+	display:inline-block;
+	word-break:break-all;
+	border-bottom:1px solid #F7F7F7;
+	padding-top:10px;
+	
+}
+#show_message a{
+	color:#fff;;
+	margin-left:10px;
+	
+}
+/*下面是dom xss的main*/
+#xssd_main{
+	width:600px;
+	height:100px;
+	float:left;
+	padding-top:50px;
+	padding-left:50px;
+	}
+
+#text{
+	width:250px;
+	height:26px;
+	margin-left:110px;
+	margin-top:50px;
+	}
+#button{
+	width:80px;
+	height:30px;
+}
+#dom{
+	margin-left:100px;
+	margin-top:15px;
+	}
+#dom a{
+	color:#fff;
+	}
+/*下面是blind xss的CSS*/
+#login{
+	margin-left:800px;
+
+}
+#login a{
+	color:#fff;
+}
+#login a:hover{
+	color:blue;
+}
+#xss_blind{
+	margin-left:80px;
+	margin-top:40px;
+	float:left;
+	color:#fff;
+
+}
+#xss_blind p{
+	margin-top:15px;
+}
+#xss_blind .content{
+	width:350px;
+	height:80px;
+}
+#list_blid_con{
+	width:500px;
+	margin:0 auto;
+	margin-top:50px;
+	color:#fff;
+	
+}
+#list_blid_con table tr td{
+	border:1px solid #fff;
+	padding-left:20px;
+	text-align:left;
+}
+#logout{
+	margin-left:800px;
+	width:100px;
+}
+#logout a{
+	color:#fff;
+}
+#logout a:hover{
+	color:blue;
+}

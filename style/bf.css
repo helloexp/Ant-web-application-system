@@ -1,0 +1,80 @@
+/*下面是bf的CSS*/
+#vul_info{
+	width:600px;
+	height:600px;
+	overflow:hidden;
+	}
+
+#vul_info .vul_title{
+	height:30px;
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	}
+#vul_info .vul_detail{
+	color:#fff;
+	text-indent:25px;
+	line-height:25px;
+	margin-top:10px;
+	margin-left:15px;
+	}
+#vul_info .vul_detail_1{
+	color:#fff;
+	line-height:25px;
+	margin-top:10px;
+	margin-left:15px;
+	}
+
+/*下面是bf_from的CSS*/
+#bf_main{
+	width:500px;
+	height:500px;
+	float:left;
+	margin-left:100px;
+	}
+#bf_main .tips{
+	color:#fff;
+	}
+#bf_main .bf_title{
+	color:#1A1A1A;
+	width:300px;
+	height:30px;
+	background-color:#9A9A9A;
+	border:1px solid #E9E9E9;
+	margin-left:60px;
+	margin-top:30px;
+	line-height:30px;
+	text-align:center;
+	}
+#bf_main .bf_form{
+	width:300px;
+	/*background-color:#F2F2F2;*/
+	border-left:1px solid #E9E9E9;
+	border-right:1px solid #E9E9E9;
+	border-bottom:1px solid #E9E9E9;
+	margin-left:60px;
+	}
+#bf_main form input{
+	margin-top:10px;
+	width:200px;
+	height:30px;
+	}
+#bf_main .submit{
+	width:60px;
+	height:30px;
+	margin-left:120px;
+	}
+#bf_main .notice{
+	color:#fff;
+	margin-left:60px;
+	margin-top:15px;
+	}
+/*下面是br_vcode的CSS*/
+#bf_main img{
+	margin-left:65px;
+	margin-top:5px
+	
+}
+
+

@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+
+
+/*下面是具体unsafe file upload 介绍页面_vul的css*/
+#vul_info{
+	width:600px;
+	height:600px;
+	/*background-color:red;*/
+	overflow:hidden;
+	}
+
+#vul_info .vul_title{
+	height:30px;
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+	/*background-color:pink;*/
+	text-align:center;
+	}
+#vul_info .vul_detail{
+	color:#fff;
+	text-indent:25px;
+	line-height:25px;
+	margin-top:10px;
+	margin-left:15px;
+	}
+#vul_info .vul_detail_1{
+	color:#fff;
+	line-height:25px;
+	margin-top:10px;
+	margin-left:15px;
+	}
+/*下面是unsafe_upload的CSS*/
+#usu_main{
+	width:600px;
+	height:500px;
+	float:left;
+	margin-left:20px;
+}
+#usu_main .title{
+	color:#fff;
+	margin-left:80px;
+	margin-top:40px;
+	
+}
+#usu_main .upload{
+	margin-top:20px;
+	margin-left:80px;
+}
+#usu_main .uploadfile{
+	width:170px;
+}
+#usu_main .notice{
+	color:red;
+	margin-top:10px;
+	margin-left:80px;
+}

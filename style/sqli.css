@@ -1,0 +1,242 @@
+@CHARSET "UTF-8";
+
+#vul_info{
+	width:650px;
+	overflow:hidden;
+	}
+#vul_info .vul_title{
+	height:30px;
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	}
+#vul_info .vul_detail{
+	color:#fff;
+	text-indent:25px;
+	line-height:25px;
+	margin-top:10px;
+	margin-left:15px;
+	
+}
+
+
+/*下面是sqlinject-str-id的CSS*/
+#sqli_main{
+	width:650px;
+	height:400px;
+	float:left;
+	
+}
+#sqli_main .sqli_title{
+	color:#fff;
+	margin-top:30px;
+	margin-left:200px;
+}
+#sqli_main .sqli_in{
+	width:180px;
+	height:25px;
+	margin-top:10px;
+	margin-left:200px;
+	
+}
+#sqli_main .notice{
+	margin-top:10px;
+	margin-left:200px;
+	color:#fff;
+	
+}
+/*id*/
+#sqli_main .sqli_id_form{
+	margin-left:205px;
+	margin-top:15px;
+	
+}
+#sqli_main .sqli_id_form select{
+	width:50px;
+	height:28px;
+	
+}
+
+/*sqli_iu_login*/
+#idu_login_main{
+	width:500px;
+	height:400px;
+	float:left;
+	margin-left:100px;
+	}
+#idu_login_main .tips{
+	color:#fff;
+	}
+#idu_login_main .tips a{
+	color:#fff;
+	font-weight:bold;
+	}
+#idu_login_main .tips a:hover{
+	color:#0000ff;
+	}
+#idu_login_main .idu_title{
+	color:#1A1A1A;
+	width:300px;
+	height:30px;
+	background-color:#9A9A9A;
+	border:1px solid #E9E9E9;
+	margin-left:60px;
+	margin-top:30px;
+	line-height:30px;
+	text-align:center;
+	}
+#idu_login_main .idu_form{
+	width:300px;
+	border-left:1px solid #E9E9E9;
+	border-right:1px solid #E9E9E9;
+	border-bottom:1px solid #E9E9E9;
+	margin-left:60px;
+	}
+#idu_login_main form input{
+	margin-top:10px;
+	width:200px;
+	height:30px;
+	}
+#idu_login_main .submit{
+	width:60px;
+	height:30px;
+	margin-left:120px;
+	}
+/*mem css*/
+#per_info{
+	width:500px;
+	height:500px;
+	margin:0 auto;
+}
+#per_info h1{
+	margin-top:20px;
+}
+#per_info p{
+	color:#fff;
+	margin-top:10px;
+}
+#per_info .edit{
+	width:100px;
+	color:#fff;
+	margin-top:10px;
+	display:block;
+	background-color:#c0c0c0;
+}
+#per_info .edit:hover{
+	width:100px;
+	color:#fff;
+	margin-top:10px;
+	display:block;
+	border:1px solid #808080;
+	background-color:#c0c0c0;
+}
+#per_info .add,.name,.sex{
+	width:300px;
+	height:20px;
+}
+#per_info .phonenum{
+	width:284px;
+	height:20px;
+}
+#per_info .email{
+	width:269px;
+	height:20px;
+}
+#per_info .sub{
+	margin-top:8px;
+}
+/*reg的css*/
+#reg_info{
+	width:500px;
+	height:500px;
+	color:#fff;
+	margin:0 auto;
+}
+#reg_info .reg_title{
+	margin-left:30px;
+}
+#reg_info p{
+	margin-left:30px;
+}
+#reg_info h1,p,input{
+	margin-top:8px;
+}
+#reg_info input{
+	display:block;
+	width:250px;
+	height:30px;
+}
+#reg_info .sub{
+	margin-left:30px;
+	width:80px;
+	height:30px;
+}
+
+/*下面是sqli_del的CSS*/
+#sqli_del_main{
+	width:650px;
+	float:left;
+	}
+#sqli_del_main .sqli_del_title{
+	color:#fff;
+	margin-top:30px;
+	margin-left:130px;
+	}
+#sqli_del_main .sqli_del_in{
+	width:350px;
+	height:100px;
+	resize:none;
+	margin-top:5px;
+	margin-left:130px
+	}
+#sqli_del_main .sqli_del_submit{
+	width:55px;
+	height:30px;
+	margin-left:130px;
+	}
+#show_message{
+	width:650px;
+}
+#show_message .line{
+	border-top:1px dashed #F7F7F7;
+	color:#fff;
+	}
+#show_message .con{
+	width:600px;
+	color:#fff;
+	font-size:14px;
+	display:inline-block;
+	word-break:break-all;
+	border-bottom:1px solid #F7F7F7;
+	padding-top:10px;
+	
+}
+#show_message a{
+	color:#fff;
+	margin-left:10px;
+	
+}
+/*http_cookie的CSS*/
+#http_main{
+	height:400px;
+	float:left;
+	margin-left:300px;
+}
+#http_main h1{
+	margin-top:50px;
+	margin-left:100px;
+}
+#http_main h1 a{
+	color:#fff;
+}
+#http_main h1 a:hover{
+	color:#0000ff;
+}
+#http_main p{
+	color:#fff;
+	margin-top:10px;
+	margin-left:100px;
+}
+
+

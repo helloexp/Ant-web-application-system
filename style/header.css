@@ -1,0 +1,106 @@
+/* CSS Document */
+body,div,ul,ol,li,input,h1,h2,h3,h4,h5,h6,form,p,textarea{
+	font-size:16px;
+	font-family:Tahoma, Geneva, sans-serif;
+	margin:0px;
+	padding:0px;
+	}
+body{
+	background:#5CACEE;
+	width:1366px;
+	height:100%;}
+a{
+	text-decoration:none;
+	}
+ul li{
+	list-style:none;}
+#top{
+	width:1200px;
+	height:100px;
+	background:url(images/logo-image.png) no-repeat 220px 25px;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:hidden;
+	}
+#top .title{
+	font-size:32px;
+	color:#FFF;
+	margin-left:320px;
+	margin-top:20px;
+	float:left;
+	}
+#top a{
+	color:#FFF;
+	font-size:16px;
+	float:right;
+	margin-right:180px;
+	margin-top:32px;
+	}
+#left_bar{
+	width:300px;
+	height:600px;
+	/*background-color:#CDCDCD;*/
+	margin-left:30px;
+	float:left;
+	
+	}
+#left_bar .left_title{
+	color:#fff;
+	margin:1px 0px 10px 0px;
+	}
+#left_bar .left_list li{
+	width:250px;
+	height:50px;
+	border:1px solid #E9E9E9;
+/*	background-color:red;*/
+	maring-top:5px;
+	}
+#left_bar .left_list li a{
+	color:#fff;
+	display:block;
+	width:250px;
+	height:50px;
+	line-height:50px;
+	text-indent:5px;
+	background-color:#9A9A9A;
+	}
+#left_bar .left_list li a:hover{
+	color:#010000;
+	display:block;
+	width:250px;
+	height:50px;
+	background-color:#F6F6F6;
+	}
+/*下面是右边隐藏的tips的CSS*/
+#right_bar{
+	width:300px;
+	float:left;
+	}
+#right_bar .tips{
+	color:#5CACEE;
+	margin-top:30px;
+	}
+/*下面是底部的CSS*/
+#bottom{
+	width:100%;
+	height:50px;
+	overflow:hidden;}
+#bottom .bottom_info{
+	color:#FFF;
+	text-align:center;
+	margin-top:10px;
+	}
+/*下面是跳转页面的CSS*/
+#op_notice{
+	color:#fff;
+	background:url(images/logo-image.png) no-repeat;
+	width:400px;
+	height:400px;
+	display:inline-block;
+	padding-left:80px;
+	margin:35px 0 0 450px;
+}
+#op_notice a{
+	color:#fff;
+	display:inline-block;
+}

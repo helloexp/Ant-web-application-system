@@ -1,0 +1,67 @@
+@CHARSET "UTF-8";
+
+
+/*下面是具体unsafe file download 介绍页面_vul的css*/
+#vul_info{
+	width:600px;
+	height:600px;
+	/*background-color:red;*/
+	overflow:hidden;
+	}
+
+#vul_info .vul_title{
+	height:30px;
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+	/*background-color:pink;*/
+	text-align:center;
+	}
+#vul_info .vul_detail{
+	color:#fff;
+	text-indent:25px;
+	line-height:25px;
+	margin-top:10px;
+	margin-left:15px;
+	}
+#vul_info .vul_detail_1{
+	color:#fff;
+	line-height:25px;
+	margin-top:10px;
+	margin-left:15px;
+	}
+/*下面是unsafe download的CSS*/
+#usd_main{
+	width:600px;
+	height:500px;
+	margin-left:40px;
+	float:left;
+}
+#usd_main .mes{
+	color:#fff;
+	font-size:13px;
+}
+#usd_main .title{
+	font-size:22px;
+	color:#fff;
+	font-weight:bold;
+	margin-left:150px;
+	margin-bottom:30px;
+}
+#usd_main .png{
+	width:128px;
+	height:95px;
+	float:left;
+	margin-top:20px;
+	color:#fff;
+}
+#usd_main img{
+	border:1px solid #fff;
+}
+#usd_main a{
+	margin-left:20px;
+	color:#fff;
+}
+#usd_main a:hover{
+	color:#0000a0;
+}

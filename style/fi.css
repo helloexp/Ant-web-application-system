@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+
+/*下面是具体fi介绍页面_vul的css*/
+#vul_info{
+	width:600px;
+	height:600px;
+	/*background-color:red;*/
+	overflow:hidden;
+	}
+
+#vul_info .vul_title{
+	height:30px;
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+	/*background-color:pink;*/
+	text-align:center;
+	}
+#vul_info .vul_detail{
+	color:#fff;
+	text-indent:25px;
+	line-height:25px;
+	margin-top:10px;
+	margin-left:15px;
+	}
+#vul_info .vul_detail_1{
+	color:#fff;
+	line-height:25px;
+	margin-top:10px;
+	margin-left:15px;
+	}
+/*local fi 的CSS*/
+
+#fi_main{
+	width:600px;
+	float:left;
+	color:#fff;
+	margin-left:100px;
+	
+}
+#fi_main .fi_title{
+	margin-bottom:15px;
+}
+#fi_main .alarm{
+	color:#ffffff;
+	maigin-top:10px;
+	font-size:13px;
+}

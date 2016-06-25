@@ -1,0 +1,81 @@
+@CHARSET "UTF-8";
+
+/*下面是具体infoleak介绍页面_vul的css*/
+#vul_info{
+	width:600px;
+	height:600px;
+	/*background-color:red;*/
+	overflow:hidden;
+	}
+
+#vul_info .vul_title{
+	height:30px;
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+	/*background-color:pink;*/
+	text-align:center;
+	}
+#vul_info .vul_detail{
+	color:#fff;
+	text-indent:25px;
+	line-height:25px;
+	margin-top:10px;
+	margin-left:15px;
+	}
+#vul_info .vul_detail_1{
+	color:#fff;
+	line-height:25px;
+	margin-top:10px;
+	margin-left:15px;
+	}
+	
+/*infoleak main*/
+#infoleak_main{
+	width:500px;
+	height:400px;
+	float:left;
+	margin-left:100px;
+	}
+#infoleak_main .tips{
+	color:#fff;
+	}
+#infoleak_main .tips a{
+	color:#fff;
+	font-weight:bold;
+	}
+#infoleak_main .tips a:hover{
+	color:#0000ff;
+	}
+#infoleak_main .leak_title{
+	color:black;
+	width:300px;
+	height:30px;
+	background-color:#9A9A9A;
+	border:1px solid #E9E9E9;
+	margin-left:60px;
+	margin-top:30px;
+	line-height:30px;
+	text-align:center;
+	}
+#infoleak_main .leak_form{
+	width:300px;
+	border-left:1px solid #E9E9E9;
+	border-right:1px solid #E9E9E9;
+	border-bottom:1px solid #E9E9E9;
+	margin-left:60px;
+	}
+#infoleak_main form input{
+	margin-top:10px;
+	width:200px;
+	height:30px;
+	}
+#infoleak_main .submit{
+	width:60px;
+	height:30px;
+	margin-left:120px;
+	}
+#infoleak_main .notice{
+	color:#fff;
+	margin-left:60px;
+}

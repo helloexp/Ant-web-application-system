@@ -1,0 +1,34 @@
+#intro_main{
+	width:750px;
+	color:#fff;
+	margin:0 auto;
+	}
+#intro_main .p1{
+	text-indent:35px;
+	line-height:25px;
+	}
+#intro_main .p2 .v_title{
+	text-indent:35px;
+	line-height:25px;
+	font-weight:bold;
+	}
+#intro_main .vul_list_info li{
+	list-style:	circle;
+	line-height:25px;
+	margin-left:25px;
+	}
+#intro_main .p2{
+	margin-top:15px;
+	}
+#intro_main .p3{
+	text-indent:35px;
+	line-height:25px;
+	margin-top:15px;
+	}
+#intro_main .p4{
+	line-height:25px;
+	margin-top:15px;
+	margin-bottom:50px;
+	
+	}
+

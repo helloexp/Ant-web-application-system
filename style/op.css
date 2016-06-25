@@ -1,0 +1,198 @@
+@CHARSET "UTF-8";
+/*overpermission页面的CSS*/
+#vul_info{
+	width:600px;
+	height:600px;
+	/*background-color:red;*/
+	overflow:hidden;
+	}
+
+#vul_info .vul_title{
+	height:30px;
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+	/*background-color:pink;*/
+	text-align:center;
+	}
+#vul_info .vul_detail{
+	color:#fff;
+	text-indent:25px;
+	line-height:25px;
+	margin-top:10px;
+	margin-left:15px;
+	}
+#vul_info .vul_detail_1{
+	color:#fff;
+	line-height:25px;
+	margin-top:10px;
+	margin-left:15px;
+	}
+/*下面是op1 login的页面*/
+#op_main{
+	width:500px;
+	height:400px;
+	float:left;
+	margin-left:100px;
+	}
+#op_main .tips{
+	color:#fff;
+	margin-left:55px;
+	}
+#op_main .op_title{
+	color:#1A1A1A;
+	width:300px;
+	height:30px;
+	background-color:#9A9A9A;
+	border:1px solid #E9E9E9;
+	margin-left:60px;
+	margin-top:30px;
+	line-height:30px;
+	text-align:center;
+	}
+#op_main .op_form{
+	width:300px;
+	/*background-color:#F2F2F2;*/
+	border-left:1px solid #E9E9E9;
+	border-right:1px solid #E9E9E9;
+	border-bottom:1px solid #E9E9E9;
+	margin-left:60px;
+	}
+#op_main form input{
+	margin-top:10px;
+	width:200px;
+	height:30px;
+	}
+#op_main .submit{
+	width:60px;
+	height:30px;
+	margin-left:120px;
+	}
+/*mem*/
+
+#per_info{
+	width:500px;
+	height:500px;
+	margin:0 auto;
+}
+#per_info .per_title{
+	color:#fff;
+}
+#per_info h1{
+	margin-top:20px;
+}
+#per_info p{
+	color:#fff;
+	margin-top:10px;
+}
+#per_info .edit{
+	width:100px;
+	color:#fff;
+	margin-top:10px;
+	display:block;
+	background-color:#c0c0c0;
+}
+#per_info .edit:hover{
+	width:100px;
+	color:#fff;
+	margin-top:10px;
+	display:block;
+	border:1px solid #808080;
+	background-color:#c0c0c0;
+}
+#per_info .add,.name,.sex{
+	width:300px;
+	height:20px;
+}
+#per_info .phonenum{
+	width:284px;
+	height:20px;
+}
+#per_info .email{
+	width:269px;
+	height:20px;
+}
+#mem_main{
+	width:500px;
+	height:400px;
+	margin:0 auto;
+
+}
+#mem_main .mem_title{
+	color:#fff;
+	margin-bottom:10px;
+}
+/*op2 admin的CSS*/
+#admin_left{
+	float:left;
+	width:130px;
+	height:400px;
+	margin-left:150px;
+	margin-top:50px;
+}
+
+#admin_left .left_title{
+	weight:100px;
+	height:25px;
+	color:black;
+	font-weight:bold;
+	line-height:30px;
+	padding-left:5px;
+	margin-bottom:2px;
+	border:1px solid #808080;
+	background-color:#c0c0c0;
+}
+#admin_left ul li{
+	weight:90px;
+	height:25px;
+
+}
+#admin_left ul li a{
+	color:#fff;
+	display:block;
+	padding-left:15px;
+	border:1px solid #808080;
+	background-color:#c0c0c0;
+}
+#admin_left ul li a:hover{
+	color:#000000;
+	background-color:#ffffff;
+}
+#admin_main{
+	float:left;
+	margin-left:80px;
+}
+#admin_main .admin_title{
+	color:#fff;
+	font-size:18px;
+	margin-left:120px;
+	margin-bottom:10px;
+}
+#admin_main table{
+	color:#fff;
+	margin-left:15px;
+}
+#admin_main table tr td{
+	padding-left:20px;
+	
+}
+/*op_admin_edit*/
+#edit_main{
+	width:500px;
+	float:left;
+}
+#edit_main .edit_title{
+	color:#fff;
+	margin-left:150px;
+	font-size:18px;
+	margin-top:10px;
+	margin-bottom:5px;
+}
+#edit_main form{
+	margin-left:150px;
+}
+#edit_main input{
+	margin-bottom:10px;
+}
+
+
